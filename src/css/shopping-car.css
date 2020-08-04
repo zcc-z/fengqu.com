@@ -153,9 +153,9 @@
 }
 .car-main .car-tit li{
     box-sizing: border-box;
-    padding-left: 30px;
+    padding-left: 25px;
     color: #aaa;
-    text-align: center;
+    /* text-align: center; */
 }
 .car-main .ch{
     width: 208px;
@@ -184,6 +184,12 @@
 }
 .car-con .ch input{
     margin-top: 20px;
+}
+.car-tit .goods-num{
+    margin-left: 60PX;
+}
+.car-tit .goods-info{
+    margin-left: 30PX;
 }
 .car-con .ch .goods-img{
     width: 50px;

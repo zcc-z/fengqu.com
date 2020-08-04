@@ -126,6 +126,32 @@
     font-size: 12px;
     color: #ccc;
 }
+/* 分页 */
+#page{
+    background: #ccc;
+}
+.page{
+    height: 80px;
+    position: relative;
+}
+.page .page-box{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.page-box  li{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 10px;
+    user-select: none;
+}
+.page-box  li:nth-of-type(1){
+    background: red;
+}
 /* links */
 /* 底部 */
 .bottom{

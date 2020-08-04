@@ -55,7 +55,7 @@ window.onscroll = ()=>{
         louti.style.display = 'none';
     }
     for(let i=0;i<louceng.length;i++){
-        if(top>louceng[i].offsetTop-louceng[i].offsetWidth/2){
+        if(top>louceng[i].offsetTop-louceng[i].offsetHeight/2){
             for(let j=0;j<lousteps.length;j++){
                 lousteps[j].className='';
             }

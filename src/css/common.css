@@ -15,7 +15,7 @@
      background: none!important;
  }
  /* 版心区域 */
- .top,.header,.nav,.banner,.goods,.footer,.links,.bottom,.registry-main,.details-main,.car-main,.goods-details,.details-con,.fix-top{
+ .top,.header,.nav,.banner,.goods,.footer,.links,.bottom,.registry-main,.details-main,.car-main,.goods-details,.details-con,.fix-top,.page{
      width: 1200px;
      margin: 0 auto;
  }
