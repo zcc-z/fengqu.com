@@ -94,7 +94,7 @@ let cookie = {
             }
         }
     },
-    remove:function(){
+    remove:function(key){
         cookie.set(key,'',-1);
     }
 }

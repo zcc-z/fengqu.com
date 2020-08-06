@@ -110,6 +110,11 @@
     height: 30px;
     background: #ccc;
     margin:  0 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    user-select: none;
+    cursor: pointer;
 }
 .info-submit{
     width: 300px;

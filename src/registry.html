@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/registry.css">
-    <script src="./script/modregistry.js" type="module"></script>
+    <!-- <script src="./script/modregistry.js" type="module"></script> -->
+    <script src="./script/main.js" type="module" index="registry" id="currentpage"></script>
+
 </head>
 <body>
     <!-- header -->
@@ -32,12 +34,6 @@
                     <li class="clear_border">DHC</li>
                 </ul>
             </div>
-            <!-- <div class="go-car">
-                <a href="javascript:;">
-                    <i></i>
-                    去购物车结算 &gt;
-                </a>
-            </div> -->
         </div>
     </div>
     <!-- main -->
@@ -49,7 +45,7 @@
             <p><label for="">确认密码：</label><input type="password"  class="repass txt"><span></span></p>
             <p><label for="">手机号码：</label><input type="text"  class="phone txt"><span></span></p>
             <p><label for="">你的邮箱：</label><input type="text"  class="email txt"><span></span></p>
-            <p class="yzm-p"><input type="text" class="yzm"><span></span><span>点击刷新</span></p>
+            <p class="yzm-p"><input type="text" class="yzm"><span></span><span class="changeyzm">点击刷新</span></p>
             <div class="info-submit">注册</div>
         </form>
     </div>

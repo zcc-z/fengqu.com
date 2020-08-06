@@ -18,6 +18,13 @@
 .top li a{
     color: #ccc;
 }
+.tui{
+    color: #ccc;
+    cursor: pointer;
+}
+.welcome{
+    color: #ccc;
+}
 .top .att{
     position: relative;
 }

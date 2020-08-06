@@ -349,6 +349,7 @@
     line-height: 50px;
     text-align: center;
     color: #333;
+    cursor: pointer;
 }
 /* footer */
 #footer{
